@@ -2,7 +2,7 @@
 <div align='center'>
   <h3>Galaxian is a dark, colorful, easy-on-the-eyes colorscheme for Vim</h3>
 </div>
-<br>
+<br><br>
 
 ![screenshot](images/screenshot.png)
 
