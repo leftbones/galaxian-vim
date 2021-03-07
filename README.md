@@ -1,7 +1,7 @@
 ![galaxian](images/promo.png)
 
 <div align='center'>
-  <h1>Galaxian is a dark, colorful, easy-on-the-eyes colorscheme for Vim</h1>
+  <h3>Galaxian is a dark, colorful, easy-on-the-eyes colorscheme for Vim</h3>
 </div>
 <br><br>
 
