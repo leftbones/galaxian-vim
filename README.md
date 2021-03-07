@@ -1,13 +1,14 @@
 ![galaxian](images/promo.png)
+
 <div align='center'>
-  <h1 style='border-bottom: none'>Galaxian is a dark, colorful, easy-on-the-eyes colorscheme for Vim</h1>
+  <h1>Galaxian is a dark, colorful, easy-on-the-eyes colorscheme for Vim</h1>
 </div>
 <br><br>
 
 ![screenshot](images/screenshot.png)
 
 ### Installation
-Simply download ``galaxian.vim`` and put it in your ``/.vim/colors/`` folder, then add ``colorscheme galaxian`` to your ``.vimrc`` file. That's it!
+Simply download ``galaxian.vim`` and put it in your ``/.vim/colors/`` folder, then add ``colorscheme galaxian`` to your ``.vimrc`` file.
 
 If your colors don't look right, and you're using the terminal version of Vim, try adding ``set termguicolors`` to your ``.vimrc`` file **before** you set the colorscheme. If that doesn't work, check to make sure your terminal supports true color. If your terminal *does* have true color support and it still doesn't look right, open an issue and I'll see if I can help out. I'm new at this still and I might have done something wrong.
 
