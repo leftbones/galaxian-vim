@@ -47,7 +47,9 @@ Run :PluginInstall
 
 Finally, add ```colorscheme galaxian``` to you .vimrc file.
 
-If your colors don't look right, and you're using the terminal version of Vim, try adding ``set termguicolors`` to your ``.vimrc`` file **before** you set the colorscheme. If that doesn't work, check to make sure your terminal supports true color. If your terminal *does* have true color support and it still doesn't look right, open an issue and I'll see if I can help out. I'm new at this still and I might have done something wrong. We also recommend using [vim-polyglot plugin](https://github.com/sheerun/vim-polyglot) for better syntax highlighting.
+If your colors don't look right, and you're using the terminal version of Vim, try adding ``set termguicolors`` to your ``.vimrc`` file **before** you set the colorscheme. If that doesn't work, check to make sure your terminal supports true color. If your terminal *does* have true color support and it still doesn't look right, open an issue and I'll see if I can help out. I'm new at this still and I might have done something wrong.
+
+We also recommend using [vim-polyglot plugin](https://github.com/sheerun/vim-polyglot) for better syntax highlighting.
 
 ### Customization
 I've commented the code well enough that you should be able to customize the colors and highlight groups to your liking fairly easily. I recommend reading the ``highlight-groups`` section of the [Vim docs](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:highlight) to find what you're looking to highlight, and you can probably figure out how to apply highlights by looking at what's already in the ``galaxian.vim`` file.
