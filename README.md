@@ -8,9 +8,46 @@
 ![screenshot](images/screenshot.png)
 
 ### Installation
-Simply download ``galaxian.vim`` and put it in your ``/.vim/colors/`` folder, then add ``colorscheme galaxian`` to your ``.vimrc`` file.
+If you're not using any plugin managers, clone or download the repository and move colors/galaxian.vim to your ~/.vim/colors/ folder.
 
-If your colors don't look right, and you're using the terminal version of Vim, try adding ``set termguicolors`` to your ``.vimrc`` file **before** you set the colorscheme. If that doesn't work, check to make sure your terminal supports true color. If your terminal *does* have true color support and it still doesn't look right, open an issue and I'll see if I can help out. I'm new at this still and I might have done something wrong.
+#### Manually
+
+Clone and move the colors/galaxian.vim file to the colors folder which should be inside your vim PATH.
+```sh
+git clone https://github.com/evprkr/galaxian-vim.git
+
+cd galaxian-vim
+
+mv colors/galaxian.vim ~/.vim/colors/
+```
+
+#### Package manager
+
+**vim-plug**
+
+Add to your .vimrc:
+```
+Plug 'evprkr/galaxian-vim'
+```
+Run :PlugInstall
+
+**Pathogen**
+
+```sh
+git clone https://github.com/evprkr/galaxian-vim.git ~/.vim/bundle/galaxian
+```
+
+**Vundle**
+
+Add to your .vimrc:
+```
+Plug 'evprkr/galaxian-vim'
+```
+Run :PluginInstall
+
+Finally, add ```colorscheme galaxian``` to you .vimrc file.
+
+If your colors don't look right, and you're using the terminal version of Vim, try adding ``set termguicolors`` to your ``.vimrc`` file **before** you set the colorscheme. If that doesn't work, check to make sure your terminal supports true color. If your terminal *does* have true color support and it still doesn't look right, open an issue and I'll see if I can help out. I'm new at this still and I might have done something wrong. We also recommend using [vim-polyglot plugin](https://github.com/sheerun/vim-polyglot) for better syntax highlighting.
 
 ### Customization
 I've commented the code well enough that you should be able to customize the colors and highlight groups to your liking fairly easily. I recommend reading the ``highlight-groups`` section of the [Vim docs](http://vimdoc.sourceforge.net/htmldoc/syntax.html#:highlight) to find what you're looking to highlight, and you can probably figure out how to apply highlights by looking at what's already in the ``galaxian.vim`` file.
