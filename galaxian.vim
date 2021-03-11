@@ -87,6 +87,7 @@ exe 'hi Tag 					guifg='s:keyword
 exe 'hi Title 					guifg='s:fg'  gui=bold'
 exe 'hi Todo 					guifg='s:fg2'  gui=inverse,bold'
 exe 'hi Type 					guifg='s:type
+exe 'hi ExtraWhitespace         guibg='s:none
 exe 'hi Underlined   			gui=underline'
 
 " Custom Highlighting
