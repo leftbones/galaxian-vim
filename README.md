@@ -43,7 +43,7 @@ Add to your ``.vimrc``:
 ```
 Plug 'evprkr/galaxian-vim'
 ```
-Run :PluginInstall
+Run ``:PluginInstall``
 
 Finally, add ```colorscheme galaxian``` to your ``.vimrc`` file.
 
