@@ -25,11 +25,11 @@ mv colors/galaxian.vim ~/.vim/colors/
 
 **vim-plug**
 
-Add to your .vimrc:
+Add to your ``.vimrc``:
 ```
 Plug 'evprkr/galaxian-vim'
 ```
-Run :PlugInstall
+Run ``:PlugInstall``
 
 **Pathogen**
 
@@ -39,13 +39,13 @@ git clone https://github.com/evprkr/galaxian-vim.git ~/.vim/bundle/galaxian
 
 **Vundle**
 
-Add to your .vimrc:
+Add to your ``.vimrc``:
 ```
 Plug 'evprkr/galaxian-vim'
 ```
 Run :PluginInstall
 
-Finally, add ```colorscheme galaxian``` to you .vimrc file.
+Finally, add ```colorscheme galaxian``` to your ``.vimrc`` file.
 
 If your colors don't look right, and you're using the terminal version of Vim, try adding ``set termguicolors`` to your ``.vimrc`` file **before** you set the colorscheme. If that doesn't work, check to make sure your terminal supports true color. If your terminal *does* have true color support and it still doesn't look right, open an issue and I'll see if I can help out. I'm new at this still and I might have done something wrong.
 
