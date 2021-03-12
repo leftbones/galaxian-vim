@@ -1,11 +1,11 @@
-![galaxian](promo.png)
+![galaxian](/images/promo.png)
 
 <div align='center'>
   <h3>Galaxian is a dark, colorful, easy-on-the-eyes colorscheme for Vim</h3>
 </div>
 <br><br>
 
-![screenshot](screenshot.png)
+![screenshot](/images/screenshot.png)
 
 ### Installation
 If you're not using any plugin managers, clone or download the repository and move colors/galaxian.vim to your ~/.vim/colors/ folder.
