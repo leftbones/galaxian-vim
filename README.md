@@ -7,8 +7,13 @@
 
 ![screenshot](/images/screenshot.png)
 
+### About
+I'm pretty severely colorblind, and I was having trouble finding a colorscheme with bright colors that actually stood out and didn't look too similar to one another. After tweaking colors for several days, I came up with what is now Galaxian. The colors are actually based on the models of the Game Boy Color!
+
+Galaxian is currently available only for Vim and iTerm2. If you are interested in porting it over to other editors/terminals, please feel free to submit a pull request!
+
 ### Installation
-If you're not using any plugin managers, clone or download the repository and move colors/galaxian.vim to your ~/.vim/colors/ folder.
+Galaxian can be installed manually, or by using one of many avaialble Vim package managers.
 
 #### Manually
 
