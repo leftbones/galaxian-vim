@@ -13,7 +13,7 @@ let g:colors_name = "galaxian"
 
 " Variable      HEX code 	 Description
 let s:none=     "NONE" 	  	 " transparent
-let s:bg=		"#1c1c22"    " blueish black (background)
+let s:bg=		"#1a1a22"    " blackish blue (background)
 let s:fg=		"#f1f1f1"    " off white (foreground)
 let s:fg2=  	"#dedede"    " fg+
 let s:fg3=		"#cacaca"    " fg++
