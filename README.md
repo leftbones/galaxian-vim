@@ -46,7 +46,7 @@ git clone https://github.com/evprkr/galaxian-vim.git ~/.vim/bundle/galaxian
 
 Add to your ``.vimrc``:
 ```
-Plug 'evprkr/galaxian-vim'
+Plugin 'evprkr/galaxian-vim'
 ```
 Run ``:PluginInstall``
 
