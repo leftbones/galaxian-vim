@@ -7,6 +7,9 @@
 
 ![screenshot](/images/screenshot.png)
 
+### Announcement
+Galaxian is now available for Visual Studio Code, you can install it by searching "Galaxian" in the Extensions tab, or at this page: https://marketplace.visualstudio.com/items?itemName=evprkr.galaxian-vs
+
 ### About
 I'm pretty severely colorblind, and I was having trouble finding a colorscheme with bright colors that actually stood out and didn't look too similar to one another. After tweaking colors for several days, I came up with what is now Galaxian. The colors are actually based on the models of the Game Boy Color!
 
