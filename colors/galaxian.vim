@@ -79,7 +79,7 @@ exe 'hi Number					guifg='s:const
 exe 'hi Operator 				guifg='s:keyword
 exe 'hi PreProc 				guifg='s:keyword
 exe 'hi Special 				guifg='s:fg
-exe 'hi SpecialKey 				guifg='s:fg2' guibg='s:bg2
+exe 'hi SpecialKey 				guifg='s:comment
 exe 'hi Statement 				cterm=bold guifg='s:keyword
 exe 'hi StorageClass 			guifg='s:type'  gui=italic'
 exe 'hi String 					guifg='s:str
